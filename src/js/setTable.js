@@ -1,3 +1,6 @@
+/* eslint-disable no-restricted-syntax */
+const table = document.getElementById('table');
+
 export default function setTable(arr) {
   table.innerHTML = '';
   for (const item of arr) {

@@ -1,5 +1,10 @@
+/* eslint-disable max-len */
+/* eslint-disable default-case */
+/* eslint-disable import/extensions */
 import jsonData from './jsonData.js';
 import setTable from './setTable.js';
+
+const thead = document.getElementById('thead');
 
 let currentCompare = 'start';
 export default function replaceItem() {
